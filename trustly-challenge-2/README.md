@@ -1,5 +1,4 @@
 # Trustly Challenge #2
-Challenge1:
 Create a Java class to print your name, nationality and biggest dream.
 
 ## 🧾 Requirements:
