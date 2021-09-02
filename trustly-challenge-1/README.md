@@ -9,5 +9,10 @@ The challenge is to find a way to use the API (http://worldclockapi.com/): It co
  - We’d like to see SOLID principles in your solution;
  - You don’t need to persist any data (but feel free to do it if you want);
 
+## 🏁 Get started
+ ```bash
+  yarn start
+```
+
 Feel free to send me feedback on [LinkedIn](https://www.linkedin.com/in/lcsdiniz/) or [file an
 issue](https://github.com/lcsdiniz/tractian-challenge/issues/new). Feature requests are always welcome.
