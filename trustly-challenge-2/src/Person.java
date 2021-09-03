@@ -9,10 +9,6 @@ public class Person {
 		this.setNationality(nationality);
 		this.setBiggestDream(biggestDream);
 	}
-	
-	public String getName() {
-		return name;
-	}
 
 	public final void setName(String name) {
 		if (name == null || name.isEmpty())
@@ -20,18 +16,10 @@ public class Person {
 		this.name = name;
 	}
 
-	public String getNationality() {
-		return nationality;
-	}
-
 	public final void setNationality(String nationality) {
 		if (nationality == null || nationality.isEmpty())
 			throw new IllegalArgumentException("Nationality is required.");
 		this.nationality = nationality;
-	}
-
-	public String getBiggestDream() {
-		return biggestDream;
 	}
 
 	public final void setBiggestDream(String biggestDream) {
@@ -41,6 +29,6 @@ public class Person {
 	}
 	
 	public void shoutPersonData() {
-		System.out.printf("Name: %s \nNationality: %s \nBiggest dream: %s", this.name, this.nationality, this.biggestDream);
+		System.out.printf("Name: %s \nNationality: %s \nBiggest dream: %s\n\n", this.name, this.nationality, this.biggestDream);
 	}
 }

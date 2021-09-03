@@ -1,3 +1,4 @@
+// Transforms the offset string with the format HH:MM:SS into the number of miliseconds
 export default function convertHMSStringToMiliseconds(timeString) {
   const timeArray = timeString.split(":");
   const hourInSeconds = Number(timeArray[0]) * 3600;
